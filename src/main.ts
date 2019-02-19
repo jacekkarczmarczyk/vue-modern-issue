@@ -1,2 +1,4 @@
-import App from './App.vue';
+const App = {
+  mounted: async () => await Promise.resolve(),
+};
 App.mounted();
